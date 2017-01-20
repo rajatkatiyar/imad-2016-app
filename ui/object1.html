@@ -1,6 +1,77 @@
+
 <html>
 <head>
-</head>
-<body>
+<titel id="poi"><img src="E:\fun pic\family pic\bittu\Photo0476.jpg" heigth="80" width="80" ><center>Central Board of Secondry Education</center></titel>
+<titel id="po"><center>(112/16 vikrmaditya marg kannat place new delhi)</center></titel>
+
+<hr>
+                    <script>
+                    var e=document.getElementById("poi");
+                   e.style.fontSize="50px";
+                   e.style.color="red";
+                   var e=document.getElementById("po");
+                  e.style.fontSize="25px";
+                 e.style.color="black";
+                 </script>
+                 </head>
+<body bgcolor="1689f3">
+<p>this is official website of CBSC please select the proper path to perform desired action</p>
+<center><h1>Regstration form</h1></center>
+<marquee>this is official website</marquee>
+                                                                                                        <script>
+                                                                                                      function validate()
+                                                                                                              {
+                                                                                                       var result=true;
+                                                                                                      var e=document.getElementsByName("email")[0].value; 
+                                                                                                      var p=document.getElementsByClassName("pass");
+                                                                                                      var atindex=e.indexOf('@');
+                                                                                                      var dotindex=e.lastIndexOf('.');
+                                                                                                     
+                                                                                                     if(atindex<1||dotindex>=e.length-2 || dotindex-atindex<3||p.length<6)
+                                                                                                      result=false ;
+                                                                                                   
+                                                                                                   
+                                                                                                      return(result);
+                                                                                                       }</script>
+                                         
+<form id="pox" action="raj.php" method="get" onsubmit="return validate()">
+<table>
+            <tr>
+            <td> username</td>
+            <td><input type="username"/></td>
+            </tr>
+
+             <tr>
+             <td>     password</td><td><input type="password" class="pass"/></td>
+           </tr>
+            <tr>    <td>  branch</td><td><input type="text"/></td>
+            </tr>
+              <tr>       <td>gender</td><td><input type="radio" name="so"/>M</td>
+               <td> <input type="radio" name="so"/>F</td>
+              </tr>
+             <tr><td>course</td><td><input type="checkbox" name="php"/>php</td>
+             <td> <input type="checkbox" name="css" />css<br></td>
+             </tr>
+            <tr><td>city</td>
+            <td><select>
+           <option>kanpur</option>
+            <option>lucknow</option>
+             <option>delhi</option>
+            <option>chennai</option>
+           </select></td></tr>
+
+             <tr><td> email</td>
+            <td><input type="email" required/></td></tr>
+            <tr><td colspan="2"><input type="submit" value="register" />
+            <input type="reset" /></td></tr>
+</table>
+</form>
+<style type="text/css">
+tr{ font-size:30px;
+}
+input{ font-size:20px;
+}
+</style>
 </body>
+
 </html>
