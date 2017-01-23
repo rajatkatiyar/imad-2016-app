@@ -6,8 +6,8 @@ p{color:green;
     background-color:lightblue;
       }
       marquee{
-          color:red;
-          font-size:50;
+          color:brown;
+          font-size:30;
       }
       
 .blink {
@@ -46,5 +46,5 @@ p{color:green;
 }
 .blink {
     color:red;
-          font-size:50;
+          font-size:30;
     
