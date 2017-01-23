@@ -44,3 +44,7 @@ p{color:green;
     50% { opacity: 0.0; }
     100% { opacity: 1.0; }
 }
+.blink {
+    color:red;
+          font-size:50;
+    
