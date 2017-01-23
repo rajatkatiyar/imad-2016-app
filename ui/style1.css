@@ -1,7 +1,13 @@
 
 p{color:green;
-    
 }
+    
+    #poi {
+        font-size:50;
+        color:red;
+    }
+        
+    
  body{
     background-color:lightblue;
       }
